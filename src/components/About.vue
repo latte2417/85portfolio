@@ -1,13 +1,11 @@
 <template>
-  <span class="main-text">ここにhtmlをかいていきます</span>
-  <div>
-    <router-link to="/about">Go to About</router-link>
-  </div>
+  <div>about</div>
+
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'AboutMe',
   props: {
     msg: String
   }
